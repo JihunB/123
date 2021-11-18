@@ -24,7 +24,7 @@ int select(char a[], int len) {
       //a[i]값과 a[j]의 값이 서로 같을 경우 duple에 값을 넣음
       if(a[i] == a[j]) { 
         duple = j - i; 
-        //만약 2 이상인데 a[j]와 a[j-1]이 같이 않다면 0을 리던
+        //만약 2 이상인데 a[j]와 a[j-1]이 같이 않다면 0을 리
         if(duple > 1) 
           if(a[j-1] != a[j]) return 0; //그룹 단어가 아닐때
       } 
