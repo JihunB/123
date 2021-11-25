@@ -24,5 +24,5 @@ int main(void){
     if(arr[i] == 0)
       printf("%d\n",i);
     }
-    return 0;
+   return 0;
 }
